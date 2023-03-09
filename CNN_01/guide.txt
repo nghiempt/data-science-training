@@ -1,0 +1,16 @@
+** Convolutional Neural Networks (CNNs) are a type of artificial neural network that are commonly used in image and video recognition tasks. They are inspired by the structure and function of the visual cortex in animals, which is responsible for processing visual information.
+
+** The basic building blocks of a CNN are convolutional layers, pooling layers, and fully connected layers. Here's a brief overview of each:
+
+1. Convolutional layers: These layers perform convolution operations on the input image or feature map using a set of learnable filters. The filters slide across the input image and perform element-wise multiplication and addition operations to produce a feature map that highlights important spatial patterns and edges in the image.
+2. Pooling layers: These layers downsample the feature map produced by the convolutional layer by taking the maximum or average of a subset of the values. This reduces the spatial dimensionality of the feature map and makes the model more robust to variations in the input image.
+3. Fully connected layers: These layers are similar to those in a regular neural network and take the flattened output of the convolutional and pooling layers as input. They perform matrix multiplication and activation operations to produce the final output of the model.
+
+** CNNs are trained using backpropagation, a supervised learning algorithm that uses a loss function to calculate the error between the predicted and actual output. The weights of the filters and fully connected layers are then updated using gradient descent to minimize the loss.
+
+** CNNs have several advantages over traditional image processing techniques, such as:
+1. Automatic feature extraction: The filters in the convolutional layers automatically learn to extract relevant features from the input image, without the need for manual feature engineering.
+2. Translation invariance: CNNs are able to recognize patterns in an image even if they appear in different locations, due to the use of shared filters in the convolutional layers.
+3. Parameter sharing: CNNs have a much smaller number of parameters compared to fully connected networks, which makes them more efficient to train and less prone to overfitting.
+
+=> CNNs have revolutionized the field of image and video recognition and are now used in a wide range of applications, including self-driving cars, facial recognition, and medical image analysis.
